@@ -35,7 +35,11 @@ This tutorial will walk through the implementation of Active Directory using Azu
 
 <ol>
   <li><h3 id = "step_1">Set up virtual machines</h3>
-		We need two machines to begin, a domain controller (named "DC-1" in the example) and one running Windows 10 (named "Client-1"). Make sure they are set up in the same region and in the same virtual network.
+		We need two machines to begin, a windows server acting as the domain controller (named "DC-1" in the example) and one running Windows 10 (named "Client-1"). Make sure they are set up in the same region and virtual network.
+
+<img width="764" alt="dc1-setup" src="https://github.com/banksii/implementing-active-directory/assets/120074266/66e0a20e-f678-4ed7-be9b-5034cc804627">
+
+<img width="764" alt="dc1-setup" src="https://github.com/banksii/implementing-active-directory/assets/120074266/a74c4c3f-4cbb-4171-ba0e-860a7bae36dd">
 
 Assign the domain controller (DC-1) a static IP address. To do this, go to the networking tab of the DC-1 controller, navigate to 
 
