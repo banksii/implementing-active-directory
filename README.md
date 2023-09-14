@@ -23,19 +23,28 @@ This tutorial will walk through the implementation of Active Directory using Azu
 
 <h2> Navigation </h2>
 <ol>
-    <li><a href = "#step_1">Enable ISS</a></li>
-    <li><a href = "#step_2">Download and prepare the necessary files</a></li>
-    <li><a href = "#step_3">IIS configurations</a></li>
-    <li><a href = "#step_4">Finishing up</a></li>
-    <li><a href = "#step_5">Cleaning up</a></li>
+    <li><a href = "#step_1">Set up virtual machines</a></li>
+    <li><a href = "#step_2">Install Active Directory Domain Services on the domain controller (DC-1)</a></li>
+    <li><a href = "#step_3">II</a></li>
+    <li><a href = "#step_4">Fi</a></li>
+    <li><a href = "#step_5">Cle</a></li>
 </ol>
 
 
 <h2> Installation Steps </h2>
 
 <ol>
-  <li><h3 id = "step_1">apples</h3> something else
+  <li><h3 id = "step_1">Set up virtual machines</h3>
+		We need two machines to begin, a domain controller (named "DC-1" in the example) and one running Windows 10 (named "Client-1"). Make sure they are set up in the same region and in the same virtual network.
+
+Assign the domain controller (DC-1) a static IP address. To do this, go to the networking tab of the DC-1 controller, navigate to 
+
   </li>
+
+
+  <li><h3 id = "step_2">Install Active Directory Domain Services on the domain controller (DC-1)</h3>
+		
+	</li>
 
 
 
