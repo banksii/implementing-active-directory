@@ -42,8 +42,13 @@ This tutorial will walk through the implementation of Active Directory using Azu
 		<blockquote>
 			Client-1 needs to be on the same network as the domain controller.
 		</blockquote>
-		<br><br>
-		Assign the domain controller (DC-1) a static IP address. To do this, go to the networking tab of the DC-1 controller, navigate to 
+		Assign the domain controller (DC-1) a static IP address. To do this, go to the networking tab of the DC-1 controller and navigate to the network interface link highlighted below. From there, click on IP configurations under Settings in the left menu and set the private IP address of 'ipconfig1' to static.
+		  <br>
+ 		<img width="960" alt="dc-1-static-ip-" src="https://github.com/banksii/implementing-active-directory/assets/120074266/869a1357-0b1e-403d-a355-ea282fbaea70">
+ 		<img width="947" alt="dc-1-checking-priv-ip" src="https://github.com/banksii/implementing-active-directory/assets/120074266/a9f05dbb-2f2d-4e99-b1cd-8a77b676cb65">
+		<img width="948" alt="dc-1-setting-priv-ip-to-static" src="https://github.com/banksii/implementing-active-directory/assets/120074266/3f7143a6-9f72-427a-95e4-5e53984b5ef5">
+
+    
 	  </li>
 	  <li><h3 id = "step_2">Install Active Directory Domain Services on the domain controller (DC-1)</h3>
 	  </li>
