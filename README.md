@@ -49,11 +49,24 @@ This tutorial will walk through the implementation of Active Directory using Azu
  		<img width="947" alt="dc-1-checking-priv-ip" src="https://github.com/banksii/implementing-active-directory/assets/120074266/a9f05dbb-2f2d-4e99-b1cd-8a77b676cb65">
 		<img width="948" alt="dc-1-setting-priv-ip-to-static" src="https://github.com/banksii/implementing-active-directory/assets/120074266/3f7143a6-9f72-427a-95e4-5e53984b5ef5">
   		<br><br>
-		To ensure connectivity between DC-1 and Client-1, I used Remote Desktop to access Client-1 and ping DC-1's IP address. The ping failed because DC-1 had a firewall up. To amend this, I used Remote Desktop to access DC-1 and enable ICMPv4 by opening Windows Defender Firewall with Advanced Security and enabling all inbound ICMPv4 rules, after which I tried to ping DC-1 from Client-1 to confirm that there were no further issues.
+		To ensure connectivity between DC-1 and Client-1, I used Remote Desktop to access Client-1 and ping DC-1's IP address. The ping failed because DC-1 has a firewall up. To allow for ICMP traffic, I used Remote Desktop to access DC-1 and enable echo requests in Windows Defender Firewall with Advanced Security, after which I tried to ping DC-1 from Client-1 to confirm that there were no further issues.
+		<br><br>
 		<img width="915" alt="dc-1-enable-echo" src="https://github.com/banksii/implementing-active-directory/assets/120074266/fc3f8fd6-a06e-41ef-8c60-721555483232">
 	  </li>
 	  <li><h3 id = "step_2">Install Active Directory Domain Services on the domain controller (DC-1)</h3>
-		  Navigate to "Add Roles and Features" in the server manager
+		  Navigate to "Add Roles and Features" in the server manager under "Manage"(top right). Continue through the wizard until you reach the Server Roles section and select "Active Directory Domain Services". Click Next and complete the installation.
+		  <br><br>
+		  <img width="960" alt="dc-1-install-active-directory" src="https://github.com/banksii/implementing-active-directory/assets/120074266/5e96f3f2-e5e8-42e8-a422-0f8e6ecf7760">
+		  <br><br>
+		  Back in the server manager, click on the flag icon with the caution sign. From the drop-down menu, click the link to promote the server to a domain controller.
+		  <br><br>
+		  <img width="915" alt="dc-1-promote-to-domain-controller" src="https://github.com/banksii/implementing-active-directory/assets/120074266/21d8bc5e-57eb-469c-a9ad-3638503e137e">
+		  <br><br>
+		  In the configuration wizard, select the option to add a new forest and give the domain a name. I chose tekdomain.com in this example.
+		  <br><br>
+		  <img width="917" alt="dc-1-naming-domain" src="https://github.com/banksii/implementing-active-directory/assets/120074266/71691bca-acba-47b3-93b3-c0f20356a062">
+    		  <br><br>
+
 	  </li>
 	
 	
