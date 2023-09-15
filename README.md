@@ -62,13 +62,21 @@ This tutorial will walk through the implementation of Active Directory using Azu
 		  <br><br>
 		  <img width="915" alt="dc-1-promote-to-domain-controller" src="https://github.com/banksii/implementing-active-directory/assets/120074266/21d8bc5e-57eb-469c-a9ad-3638503e137e">
 		  <br><br>
-		  In the configuration wizard, select the option to add a new forest and give the domain a name. I chose tekdomain.com in this example.
+		  In the configuration wizard, select the option to add a new forest and give the domain a name. I chose tekdomain.com in this example. 
 		  <br><br>
 		  <img width="917" alt="dc-1-naming-domain" src="https://github.com/banksii/implementing-active-directory/assets/120074266/71691bca-acba-47b3-93b3-c0f20356a062">
     		  <br><br>
-
+		  The next section should prompt the user to set up a password. Continue with the wizard and complete the installation. The device may restart.
 	  </li>
-	
+   	  <li><h3 id = "step_3">Accessing Active Directory</h3>
+      		  Active directory can be accessed through the server manager from the Tools drop-down menu.
+	  	  <br><br>
+      		  <img width="917" alt="accessing-active-directory" src="https://github.com/banksii/implementing-active-directory/assets/120074266/72e745cb-c50c-45b4-9f0c-14d575714f17">
+	  	  <br><br>
+      		  
+
+		  
+	  </li>
 	
 	
 	
