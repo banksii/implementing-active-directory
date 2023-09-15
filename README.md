@@ -49,8 +49,8 @@ This tutorial will walk through the implementation of Active Directory using Azu
  		<img width="947" alt="dc-1-checking-priv-ip" src="https://github.com/banksii/implementing-active-directory/assets/120074266/a9f05dbb-2f2d-4e99-b1cd-8a77b676cb65">
 		<img width="948" alt="dc-1-setting-priv-ip-to-static" src="https://github.com/banksii/implementing-active-directory/assets/120074266/3f7143a6-9f72-427a-95e4-5e53984b5ef5">
   		<br><br>
-		To ensure connectivity between DC-1 and Client-1, I used Remote Desktop to access Client-1 and ping DC-1's IP address. The ping failed because DC-1 had a firewall up. To amend this, I used Remote Desktop to access DC-1 and enable ICMPv4 by opening Windows Defender Firewall with Advanced Security, clicking Inbound Rules (top left menu), and enabling all inbound ICMPv4 rules.
-		<img width="883" alt="dc-1-disable-firewall-1" src="https://github.com/banksii/implementing-active-directory/assets/120074266/79b67ebc-52f1-4344-88b2-67f600ace9af">
+		To ensure connectivity between DC-1 and Client-1, I used Remote Desktop to access Client-1 and ping DC-1's IP address. The ping failed because DC-1 had a firewall up. To amend this, I used Remote Desktop to access DC-1 and enable ICMPv4 by opening Windows Defender Firewall with Advanced Security and enabling all inbound ICMPv4 rules, after which I tried to ping DC-1 from Client-1 to confirm that there were no further issues.
+		<img width="872" alt="dc-1-disable-firewall" src="https://github.com/banksii/implementing-active-directory/assets/120074266/d48fbcd3-129f-4f9c-945f-fbf79d4c5732">
 
 
     
