@@ -50,12 +50,10 @@ This tutorial will walk through the implementation of Active Directory using Azu
 		<img width="948" alt="dc-1-setting-priv-ip-to-static" src="https://github.com/banksii/implementing-active-directory/assets/120074266/3f7143a6-9f72-427a-95e4-5e53984b5ef5">
   		<br><br>
 		To ensure connectivity between DC-1 and Client-1, I used Remote Desktop to access Client-1 and ping DC-1's IP address. The ping failed because DC-1 had a firewall up. To amend this, I used Remote Desktop to access DC-1 and enable ICMPv4 by opening Windows Defender Firewall with Advanced Security and enabling all inbound ICMPv4 rules, after which I tried to ping DC-1 from Client-1 to confirm that there were no further issues.
-		<img width="872" alt="dc-1-disable-firewall" src="https://github.com/banksii/implementing-active-directory/assets/120074266/d48fbcd3-129f-4f9c-945f-fbf79d4c5732">
-
-
-    
+		<img width="915" alt="dc-1-enable-echo" src="https://github.com/banksii/implementing-active-directory/assets/120074266/fc3f8fd6-a06e-41ef-8c60-721555483232">
 	  </li>
 	  <li><h3 id = "step_2">Install Active Directory Domain Services on the domain controller (DC-1)</h3>
+		  Navigate to "Add Roles and Features" in the server manager
 	  </li>
 	
 	
