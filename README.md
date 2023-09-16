@@ -90,10 +90,13 @@ https://github.com/banksii/implementing-active-directory/assets/120074266/18b310
  		In this step, we're going to join the Client-1 virtual machine created in <a href = "#step_1">step 1</a> to the domain. To do this, Client-1 needs to be connected to the domain server with the static IP assigned to DC-1 in <a href = "#step_1">step 1</a>. Back in Azure, navigate to the Networking tab of Client-1. Click the network interface link and go to the DNS servers tab. From there, select the custom option and input the private IP address of DC-1 and save. The Client device will need to be restarted.
    		<br><br>
 		<img width="678" alt="client-joining" src="https://github.com/banksii/implementing-active-directory/assets/120074266/d1748b65-2ed5-4559-9519-2f865b547ff0">
+		<br><br>
   		Back on the Client-1 device, go to system settings and follow the steps demonstrated in the video below to assign the Client to the domain created earlier.
+		
 https://github.com/banksii/implementing-active-directory/assets/120074266/680a47dd-640a-4092-9d78-f314cb350220
+		
 Client-1 is now a member of the domain and you should be able to log in to the client's computer with an admin's credentials.
 	</li>
- 	<li><h3 id = "#step_5">Allow all domain users access to Client-1</h3>
+ 	<li><h3 id = "#tep_5">Allow all domain users access to Client-1</h3>
 	</li>
 </ol>
