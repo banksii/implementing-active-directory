@@ -25,8 +25,8 @@ This tutorial will walk through the implementation of Active Directory using Azu
 	<ol>
 	    <li><a href = "#step_1">Set up virtual machines</a></li>
 	    <li><a href = "#step_2">Install Active Directory Domain Services on the domain controller (DC-1)</a></li>
-	    <li><a href = "#step_3">II</a></li>
-	    <li><a href = "#step_4">Fi</a></li>
+	    <li><a href = "#step_3">Setting up an admin account</a></li>
+	    <li><a href = "#step_4">Joining a device to the domain</a></li>
 	    <li><a href = "#step_5">Cle</a></li>
 	</ol>
 
@@ -81,19 +81,15 @@ This tutorial will walk through the implementation of Active Directory using Azu
 		  <br><br>
     		  <img width="567" alt="image" src="https://github.com/banksii/implementing-active-directory/assets/120074266/6a4625a7-527b-4dc9-82eb-6f2307c9ca0f">
 		  <br><br>
-    		  This created a new user but they are not an admin yet. To assign them, go to that user's properties and navigate to the "Member of" tab. From there, click Add and type 'domain' into the box and click Check Names beside it. Click the domain option. This process is shown in the video below.
+    		  This created a new user but they are not an admin yet. To assign them, go to that user's properties and navigate to the "Member of" tab. From there, click Add and type 'domain' into the box and click Check Names beside it. Click the domain option. This process is shown in the video below. You can now log out of the domain controller and log back in as an admin.
 		  <br><br>
-https://github.com/banksii/implementing-active-directory/assets/120074266/18b3107b-ad14-42f7-b254-64bea69f0876
-		  <br><br>
-		  <br><br>
-		  <br><br>
-      		  <br><br>
-	  		
-
-      		  
-
 		  
-	  </li>
+https://github.com/banksii/implementing-active-directory/assets/120074266/18b3107b-ad14-42f7-b254-64bea69f0876
+</li>
+	<li><h3 id = "step_4">Joining a device to the domain</h3>
+ 		
+		
+	</li>
 	
 	
 	
