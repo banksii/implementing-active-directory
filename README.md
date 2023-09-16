@@ -92,6 +92,7 @@ https://github.com/banksii/implementing-active-directory/assets/120074266/18b310
 		<img width="678" alt="client-joining" src="https://github.com/banksii/implementing-active-directory/assets/120074266/d1748b65-2ed5-4559-9519-2f865b547ff0">
 		<br><br>
   		Back on the Client-1 device, go to system settings and follow the steps demonstrated in the video below to assign the Client to the domain created earlier.
+    		<br><br>
 		
 https://github.com/banksii/implementing-active-directory/assets/120074266/680a47dd-640a-4092-9d78-f314cb350220
 		
