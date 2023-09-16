@@ -99,5 +99,10 @@ https://github.com/banksii/implementing-active-directory/assets/120074266/680a47
 Client-1 is now a member of the domain and you should be able to log in to the client's computer with an admin's credentials.
 	</li>
  	<li><h3 id = "#tep_5">Allow all domain users access to Client-1</h3>
+  		The video below shows how to allow domain users to access the Client-1 virtual machine.
+
+https://github.com/banksii/implementing-active-directory/assets/120074266/b75e0482-f626-44e7-beea-ebf0448817b8
+<br><br>
+		To ensure Client-1 can be accessed by other domain users, I returned to DC-1 using the admin account to create a couple of non-admin users with a PowerShell script and randomly selected one to log into Client-1 with.
 	</li>
 </ol>
