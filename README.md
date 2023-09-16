@@ -1,5 +1,5 @@
 <p align = "center">
-<img src = "https://github.com/banksii/implementing-active-directory/assets/120074266/db900248-87e9-4154-9c8c-e146bd84c007">
+<img src = "https://github.com/banksii/implementing-active-directory/assets/120074266/b7afcc27-6e9f-466c-bd93-fdbf19f9013c">
 </p>
 
 <h1> Setting up Active Directory in the Cloud </h1>
