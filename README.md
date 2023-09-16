@@ -68,11 +68,28 @@ This tutorial will walk through the implementation of Active Directory using Azu
     		  <br><br>
 		  The next section should prompt the user to set up a password. Continue with the wizard and complete the installation. The device may restart.
 	  </li>
-   	  <li><h3 id = "step_3">Accessing Active Directory</h3>
+   	  <li><h3 id = "step_3">Setting up an Admin account</h3>
       		  Active directory can be accessed through the server manager from the Tools drop-down menu.
 	  	  <br><br>
       		  <img width="917" alt="accessing-active-directory" src="https://github.com/banksii/implementing-active-directory/assets/120074266/72e745cb-c50c-45b4-9f0c-14d575714f17">
 	  	  <br><br>
+		  Next, right click on the domain name, go to New, and select Organizational Unit. In this example, I created two organizational units called "Admins" and "Employees".
+		  <br><br>
+      		  <img width="566" alt="active-directory-new-org" src="https://github.com/banksii/implementing-active-directory/assets/120074266/cfdff660-90e7-425c-984f-48ebde94c3be">
+	  	  <br><br>
+		  Right click on the new Admins folder, go to new, and select user. You will be prompted to create a username and password. This creates a new user but it's not an admin account yet.
+    		  <img width="567" alt="image" src="https://github.com/banksii/implementing-active-directory/assets/120074266/6a4625a7-527b-4dc9-82eb-6f2307c9ca0f">
+		https://github.com/banksii/implementing-active-directory/assets/120074266/e05084fa-f581-4bc1-a57c-e5cadf5e165f
+
+
+
+		  
+		  <br><br>
+		  <br><br>
+		  <br><br>
+      		  <br><br>
+	  		
+
       		  
 
 		  
