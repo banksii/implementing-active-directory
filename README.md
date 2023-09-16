@@ -100,9 +100,14 @@ Client-1 is now a member of the domain and you should be able to log in to the c
 	</li>
  	<li><h3 id = "#tep_5">Allow all domain users access to Client-1</h3>
   		The video below shows how to allow domain users to access the Client-1 virtual machine.
-
+    		<br><br>
+      
 https://github.com/banksii/implementing-active-directory/assets/120074266/b75e0482-f626-44e7-beea-ebf0448817b8
-<br><br>
-		To ensure Client-1 can be accessed by other domain users, I returned to DC-1 using the admin account to create a couple of non-admin users with a PowerShell script and randomly selected one to log into Client-1 with.
+
+<br>
+		To ensure Client-1 can be accessed by other domain users, we need to login as another user. To do this, I first logged into DC-1 as an admin and opened PowerShell ISE an admin to run the contents of this <a href = "https://github.com/banksii/implementing-active-directory/blob/main/create-users.ps1">script</a>, which generated 100 users and placed them in the Employees Organizational Unit created in <a href = "#step_3">step 3</a>. I then selected one of the user credentials to use to login to Client-1.
+  		<br><br>
+  		<img width="854" alt="ps-user-generate" src="https://github.com/banksii/implementing-active-directory/assets/120074266/836ffbed-80ab-4638-b4a6-d9d1b27cbad1">
 	</li>
+
 </ol>
