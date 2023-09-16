@@ -77,10 +77,10 @@ This tutorial will walk through the implementation of Active Directory using Azu
 		  <br><br>
       		  <img width="566" alt="active-directory-new-org" src="https://github.com/banksii/implementing-active-directory/assets/120074266/cfdff660-90e7-425c-984f-48ebde94c3be">
 	  	  <br><br>
-		  Right click on the new Admins folder, go to new, and select user. You will be prompted to create a username and password. This creates a new user but it's not an admin account yet.
+		  Right click on the new Admins folder, go to new, and select user. You will be prompted to create a username and password.
     		  <img width="567" alt="image" src="https://github.com/banksii/implementing-active-directory/assets/120074266/6a4625a7-527b-4dc9-82eb-6f2307c9ca0f">
-		https://github.com/banksii/implementing-active-directory/assets/120074266/e05084fa-f581-4bc1-a57c-e5cadf5e165f
-
+		  <br><br>
+    		  This created a new user but they are not an admin yet. To assign them, go to that user's properties and navigate to the "Member of" tab. From there, click Add and type 'domain' into the box and click Check Names beside it. Click the domain option. This process is shown in the video below.
 
 
 		  
